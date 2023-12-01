@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Public Sans', 'sans-serif'
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+.sidebar {
+    background-image: url(imgs/image.jpg);
+    width: 45vw;
+}
+
+.content {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .input {
+    display: flex;
+    flex-direction: column;
+}
